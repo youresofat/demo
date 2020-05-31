@@ -1,0 +1,631 @@
+/*
+		清空默认布局
+*/
+*{
+	padding:0px;
+	margin:0px;
+}
+
+a{
+	text-decoration:none;
+	color:rgba(73,73,73,1);
+}
+a:hover{
+	color:rgba(0,164,255,1);
+}
+ul{
+	list-style-type:none;
+}
+
+.clear:after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+}
+
+.container{
+	width:1200px;
+	margin:0px auto;
+}
+
+body{
+	background:rgb(245,245,245);
+}
+
+/*
+	导航顶部样式设置
+*/
+.nav-top{
+	background:url(../img2/foot.png) no-repeat center center;
+	height:96px;
+}
+
+.nav-top .logo{
+	float:left;
+	font-size:40px;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	margin-top:20px;
+
+}
+
+
+.nav-top ul{
+	float:left;
+	margin-top:44px;
+	margin-left:38px;
+}
+
+.nav-top li{
+	float:left;
+	margin-left:44px;
+	padding-bottom:10px;
+}
+
+.nav-top a{
+	color:black;
+}
+
+.nav-top li:hover{
+	border-bottom:2px solid rgba(0,164,255,1);
+}
+
+.nav-top form{
+	float:left;
+
+}
+
+.nav-top input{
+	float:left;
+	margin-top:25px;
+}
+
+.search{
+	width:364px;
+	height:14px;
+	margin-left:173px;
+	padding:12px 0px;
+	padding-left:19px;
+	border:2px solid rgba(0,164,255,1);
+}
+
+.button{
+	width:50px;
+	height:42px;
+	background:url(../img2/fa-search.png) no-repeat center center;
+	background-color:rgba(0,164,255,1);
+	border:none;
+}
+
+.person{
+	float:right;
+	margin-left:31px;
+	margin-top:38px;
+	font-size:14px;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+
+}
+.person a :hover{
+	color:rgba(0,164,255,1);
+
+}
+
+/*
+	导航底部样式设置
+*/
+.nav-bottom{
+	height:420px;
+	background:rgba(28,3,108,1);
+}
+
+
+.nav-bottom .banner{
+	background:url(../img2/banner2.png) no-repeat center center;
+	height:420px;
+	width:100%;
+}
+
+.bottom-content{
+	position:relative;
+}
+
+.nav-list{
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	width:180px;
+	background:rgba(0,0,0,0.3);
+
+}
+
+.nav-list li{
+	margin-left:20px;
+	margin-top:23px;
+	position:relative;
+}
+
+.nav-list a{
+	color:#fff;
+	font-size:14px;
+	font-weight:400;
+}
+
+.nav-list div{
+	position:absolute;
+	right:10px;
+	top:3px;
+	width:14px;
+	height:14px;
+	background:url(../img2/lilogo.png) no-repeat center;
+	
+}
+
+.nav-list a:hover div{
+	background:url(../img2/lilogo2.png) no-repeat center;
+}
+
+.nav-list a:hover
+{
+	color:rgba(0,164,255,1);
+}
+
+
+
+
+
+
+
+
+
+
+/*
+	推荐样式设置
+*/
+.recommde{
+	margin-top:8px;
+	background:url(../img2/rectangle.png) no-repeat center center;
+	height:60px;
+	position:relative;
+}
+
+
+.recommde ul{
+	padding-left:34px;
+}
+
+.recommde li{
+	float:left;
+	margin-top:21px;
+	width:96px;
+	font-size:16px;
+	font-weight:bold;
+
+
+}
+
+.recommde a{
+	color:black;
+}
+
+.thorough{
+	position:absolute;
+	top:49.5px;
+	left:12.5px;
+	bottom:79.5px;
+}
+
+.recommde .right{
+	float:right;
+	margin-top:21px;
+	padding-right:61px;
+}
+
+.leftborder{
+	border-left: 1px solid rgba(191,191,191,1);
+	padding-left:20px;
+}
+
+.recommde a:hover{
+	color:rgba(0,164,255,1);
+}
+
+/*
+	内容样式设置
+*/
+
+.content-nav{
+	margin-top:37px;
+}
+
+.content-navleft{
+	float:left;
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+
+}
+
+
+.content-navright{
+	float:right;
+	font-size:12px;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+	padding-right:30px;
+
+}
+
+
+/*
+	内容样式设置
+*/
+
+.content-content{
+	height:270px;
+	margin-top:21px;
+}
+
+.content-bg{
+	position:relative;
+	padding-right:15px;
+	float:left;
+}
+
+.recom-content
+{
+
+	position:absolute;
+	display:inline-block;
+	left:23px;
+	bottom:26px;
+}
+
+.recom-1{
+	font-size:14px;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+	width:185px;
+	height:34px;
+}
+
+.recom-2{
+	margin-top:18px;
+	font-size:12px;
+	font-weight:400;
+	color:rgba(255,124,45,1);
+
+}
+.recom-2 span{
+	font-size:12px;
+	font-weight:400;
+	color:rgba(255,124,45,1);
+}
+
+.last{
+	padding-right:0px;
+}
+
+.copy{
+	margin-top:15px;
+}
+
+/*
+	前端导航样式设置
+*/
+
+.font-nav{
+	margin-top:37px;
+}
+
+.font-left{
+	float:left;
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+
+}
+
+.font-center ul{
+	float:left;
+	margin-left:291px;
+}
+
+.font-center li{
+	float:left;
+	padding-left:70px;
+}
+
+.font .first{
+	padding-left:0px;
+}
+
+
+
+
+
+.font-center a{
+
+	font-size:16px;
+	width:327px;
+	font-weight:400;
+	font-size:16px;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+}
+
+.font-center a:hover{
+	color:rgba(0,164,255,1);
+}
+
+.font-right{
+	float:right;
+	margin-right:31px;
+	font-size:12px;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+}
+
+/*
+	前端内容样式设置
+*/
+.font{
+	margin-top:37px;
+}
+
+.font-content{
+	margin-top:18px;
+}
+
+.font-content li{
+	float:left;
+	width:228px;
+	height:270px;
+	padding-right:14px;
+	position:relative;
+}
+
+.font-content .font-last{
+	padding-right:0px;
+}
+
+.content-recom{
+	position:absolute;
+	left:23px;
+	bottom:26px;
+
+}
+
+
+
+/*
+	牛人推荐样式设置
+*/
+
+.special:hover{
+	color:rgba(249,225,3,1);
+}
+
+.special{
+	color:rgba(249,225,3,1);
+}
+
+.recommdence-nav{
+	margin-top:35px;
+	margin-bottom:33px;
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+
+.line1,
+.line2,
+.line3
+{
+	margin-left:15px;
+}
+
+.line1,
+.line2
+{
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(249,225,3,1);
+	line-height:36px;
+
+}
+
+.line2{
+	color:white;
+	margin-top:10px;
+
+}
+
+.line2 a{
+	color:white;
+}
+
+.recommdence-left{
+	width:471px;
+	height:320px;
+	float:left;
+	position:relative;
+}
+
+
+.line3{
+	width:70px;
+	height:25px;
+	margin-top:12px;
+	padding:7px 20px;
+	color:rgba(249,225,3,1);
+	border:2px solid rgba(249,225,3,1);
+}
+
+.line3 a{
+	color:rgba(249,225,3,1);
+}
+
+
+
+/*
+	牛人内容样式设置
+*/
+
+.white{
+	color:white;
+}
+
+.people li{
+	float:left;
+	margin-left:10px;
+}
+
+.people1{
+	background:url(../img2/people1.png) no-repeat center center;
+	width:230px;
+	height:320px;
+	position:relative;
+}
+
+.people2{
+	background:url(../img2/people2.png) no-repeat center center;
+	width:230px;
+	height:320px;
+	position:relative;
+}
+
+.people3{
+	background:url(../img2/people3.png) no-repeat center center;
+	width:230px;
+	height:320px;
+	position:relative;
+}
+
+.brief{
+	position:absolute;
+	left:0px;
+	top:198px;
+	bottom:0px;
+	font-size:12px;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	background:rgba(0,0,0,1);
+	opacity:0.5;
+	
+}
+
+.brief span{
+	font-size:17px;
+	display:inline-block;
+	margin-top:20px;
+	margin-right:7px;
+	margin-bottom:10px;
+	margin-left:20px;
+
+}
+
+.brief p{
+	margin-left:20px;
+}
+
+/*
+	页脚样式设置
+*/
+
+.foot{
+	height:417px;
+	margin-top:73px;
+	background:url(../img2/foot.png) no-repeat center center;
+}
+
+
+
+.foot-left{
+	margin-left:20px;
+	margin-top:62px;
+	float:left;
+}
+
+.foot-left1{
+	font-size:25px;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+
+
+}
+
+.foot-left2{
+	margin-top:20px;
+	font-size:6px;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}
+
+.foot-left3{
+	width:50px;
+	height:20px;
+	margin-top:20px;
+	padding-left:20px;
+	padding-top:10px;
+	border:1px solid rgba(0,164,255,1);
+	font-size:8px;
+	font-weight:400;
+	color:rgba(0,164,255,1);
+
+}
+
+.foot-left3 a{
+	color:rgba(0,164,255,1);
+}
+
+.foot-right{
+	float:left;
+	margin-right:10px;
+	margin-top:70px;
+	font-size:12px;
+}
+
+.foot-right a:hover{
+	color:rgba(0,164,255,1);
+}
+
+.foot-right ul{
+	float:left;
+}
+
+.foot-right a{
+	font-size:10px;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:11px;
+
+}
+
+.foot-right1{
+	margin-left:380px;
+
+}
+.foot-top{
+	margin-bottom:6px;
+}
+
+.foot-top a{
+	font-size:16px;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:11px;
+
+}
+
+.foot-right2{
+	margin-left:141px;
+}
+
+.foot-right3{
+	margin-left:111px;
+}
